@@ -1,0 +1,55 @@
+body{
+    background-image: url('../images/62690220_xl.jpg');
+    background-size: cover;
+    font-family: 'EB Garamond'
+}
+#main{
+    background-image: url('../images/white_wall_hash.png');
+    background-size: cover;
+    width: 65vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10vh;
+    text-align: center;
+    padding: 5vw;
+}
+#voice{
+    color: #D40E41;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    color: #1F1159;
+    margin: 0;
+
+
+}
+#c{
+    float: left;
+}
+hr{
+    background-color: #93BCAF;
+    margin:0;
+}
+#call{
+  color:  #1F1159
+}
+#firstp{
+    font-size: 14px;
+    color: #1F1159;
+}
+#sing{
+    height: 30vh;
+    margin-top: 1vh;
+    float: left;
+    margin-right: 5vw;
+}
+#one, #two, #three{
+    text-align: left;
+    color: #668877;
+
+}
+@media only screen and (max-width: 1420px) {
+    #main{
+        height: inherit;
+    }
+  }

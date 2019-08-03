@@ -5,8 +5,24 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: 'EB Garamond',
+            subsets: [`latin`],
+          },
+          {
+            family: `Dancing Script`,
+            subsets: [`latin`],
+          },
+        ],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
+
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
