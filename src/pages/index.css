@@ -7,7 +7,6 @@ body{
     background-image: url('../images/white_wall_hash.png');
     background-size: cover;
     width: 65vw;
-    height: 80vh;
     margin: auto;
     margin-top: 10vh;
     text-align: center;
@@ -16,7 +15,7 @@ body{
 #voice{
     color: #D40E41;
 }
-h1{
+#first{
     font-family: 'Dancing Script', cursive;
     color: #1F1159;
     margin: 0;
@@ -51,5 +50,10 @@ hr{
 @media only screen and (max-width: 1420px) {
     #main{
         height: inherit;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    #main{
+        width: 100vw;
     }
   }

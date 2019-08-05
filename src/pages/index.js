@@ -28,7 +28,7 @@ LESSONS ARE TAUGHT BY CAROLINE MORRIS.
 </div>
       <p id="one">You have the innate ability to express yourself through music</p>
       <p id="two">You can pursue your personal and professional music goals through individual, uplifting musical enrichment.</p>
-      <p id="three">Lessons and coaching's will be a time of discovery and play - a time to work hard while having fun for personal and professional growth.
+      <p id="three">Lessons and coaching's will be a time of discovery and fun.
 
 </p>
 
