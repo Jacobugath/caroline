@@ -18,20 +18,39 @@ const IndexPage = () => (
 
       <h1 id="first">Caroline Morris</h1>
       <p id="voice">Voice Studio</p>
+
       <hr></hr>
-      <div id="call">CALL (801) 824 - 5060 FOR A FREE FIRST LESSON</div>
-      <br/>
-      <div id="firstp">CM VOICE STUDIO OFFERS PRIVATE VOICE LESSONS IN VARIOUS SINGING STYLES, ACTING COACHING AND AUDITION TRAINING FOR THE BUDDING PERFORMER TO THE PROFESSIONAL.
-LESSONS ARE TAUGHT BY CAROLINE MORRIS.
+      <ul>
+        <nav>
+        <li>GALLERY</li>
+        <li>ABOUT ME</li>
+        <li>CONTACT ME</li>
+        <li>PRICES AND POLICIES</li>
+        <li>CLASSES AND LESSONS</li>
+        <li>SCHEDULE  </li>
+        </nav>
+      </ul>
+      <div id="call">CALL (801) 824 - 5060 FOR A FREE CONSOLTATION</div>
+
+      <div id="firstp">Caroline Morris Music Studio offers private and group voice lessons as well as a variety of music classes.
       <hr/>
+      <div id="flexcontain">
+      <div id="image">
+      <br/>
       <img id='sing' src={c} alt="woman singing"/>
-</div>
-      <p id="one">You have the innate ability to express yourself through music</p>
-      <p id="two">You can pursue your personal and professional music goals through individual, uplifting musical enrichment.</p>
-      <p id="three">Lessons and coaching's will be a time of discovery and fun.
+      </div>
+      <div id="Mission">
+      <p id="one">
+      <br/>
+      <span>My Mission:</span><br/>
+      To teach anyone who wants to learn to sing or sing better. Everyone has a voice talent in my studio. </p>
+      <p id="two"> I will help you accustom your mind and body to singing and performing through technique and visualization. </p>
+      <p id="three">You will discover new parts of yourself and have fun in the process. Improvement comes from the ability to laugh at yourself.
 
 </p>
-
+</div>
+      </div>
+      </div>
     </div>
   </Layout>
 )

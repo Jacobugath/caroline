@@ -3,6 +3,23 @@ body{
     background-size: cover;
     font-family: 'EB Garamond'
 }
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 5px;
+   }
+nav{
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+    justify-content: space-between
+
+
+}
+li{
+    text-align: center;
+    margin: 0;
+}
 #main{
     background-image: url('../images/white_wall_hash.png');
     background-size: cover;
@@ -13,17 +30,22 @@ body{
     padding: 5vw;
 }
 #voice{
-    color: #D40E41;
+    color: #668877;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px #FFD0C3
 }
 #first{
     font-family: 'Dancing Script', cursive;
     color: #1F1159;
     margin: 0;
+    text-shadow: 2px 2px #FFD0C3
 
 
 }
 #c{
     float: left;
+    width: 30vw;
 }
 hr{
     background-color: #93BCAF;
@@ -33,19 +55,33 @@ hr{
   color:  #1F1159
 }
 #firstp{
-    font-size: 14px;
-    color: #1F1159;
+    font-size: 20px;
+    color: #668877;;
+    text-shadow: 2px 2px #FFD0C3;
 }
 #sing{
-    height: 30vh;
+    width: 200px;
     margin-top: 1vh;
-    float: left;
-    margin-right: 5vw;
+
+    margin-right: 7vw;
+
+} p{
+    margin-bottom: 10px;
+}
+#flexcontain{
+    display: flex;
+    flex-direction: row;
+
 }
 #one, #two, #three{
     text-align: left;
-    color: #668877;
-
+    color: #1F1159;
+    margin-left: 30px;
+}
+span{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px #FFD0C3;
+    font-size: 1.5rem;
 }
 @media only screen and (max-width: 1420px) {
     #main{
@@ -55,5 +91,7 @@ hr{
   @media only screen and (max-width: 700px) {
     #main{
         width: 100vw;
+        position: fixed;
+        left: 0;
     }
   }
