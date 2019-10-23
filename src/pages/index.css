@@ -1,7 +1,18 @@
 body{
     background-image: url('../images/62690220_xl.jpg');
     background-size: cover;
-    font-family: 'EB Garamond'
+    font-family: 'EB Garamond';
+    color: #1F1159
+}
+h1{
+    font-family: 'Dancing Script';
+    color: #93BCAF
+}
+#des, #off, #time{
+    text-align: left;
+}
+#send{
+    background-color:#FFD0C3
 }
 ul {
     list-style-type: none;
@@ -9,7 +20,7 @@ ul {
     margin-bottom: 5px;
    }
 nav{
-    display: flex;
+    display: flex !important;
     font-size: 12px;
     text-align: center;
     justify-content: space-between
@@ -28,18 +39,24 @@ li{
     margin-top: 10vh;
     text-align: center;
     padding: 5vw;
+    box-shadow: 0 0 5px 3px #EDD8AD;
 }
 #voice{
-    color: #668877;
+    color: #1F1159;
     font-size: 2rem;
     font-family: 'Dancing Script', cursive;
-    text-shadow: 2px 2px #FFD0C3
+    text-shadow:  2px 2px #FFD0C3;
+    margin-top: 1rem;
+}
+a{
+    color: #1F1159;
 }
 #first{
     font-family: 'Dancing Script', cursive;
-    color: #1F1159;
+    color: #1F1159 !important;
     margin: 0;
-    text-shadow: 2px 2px #FFD0C3
+    text-shadow: 2px 2px #FFD0C3;
+    font-size: 2rem;
 
 
 }
@@ -47,8 +64,18 @@ li{
     float: left;
     width: 30vw;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+.about{
+    text-align: left;
+    margin-left: 50px;
+
+}
 hr{
     background-color: #93BCAF;
+
     margin:0;
 }
 #call{
@@ -56,11 +83,29 @@ hr{
 }
 #firstp{
     font-size: 20px;
-    color: #668877;;
-    text-shadow: 2px 2px #FFD0C3;
+    color: #1F1159;
+    text-shadow: 1px 1px #FFD0C3;
+}
+.p1{
+    font-size: 20px;
+    color: #668877;
+    text-shadow: 1px 1px #FFD0C3;
+}
+input{
+    width: 400px;
+}
+textarea{
+    width: 400px;
+}
+form{
+    text-align: left;
+}
+.but{
+    background-color:#FFD0C3;
+    color: #1F1159;
 }
 #sing{
-    width: 200px;
+    width: 900px;
     margin-top: 1vh;
 
     margin-right: 7vw;
@@ -83,15 +128,44 @@ span{
     text-shadow: 2px 2px #FFD0C3;
     font-size: 1.5rem;
 }
-@media only screen and (max-width: 1420px) {
+.flexcontain{
+    display: flex;
+    justify-content: space-between;
+}
+.head, .head2{
+    color: #1F1159;
+}
+.head2{
+    width: 600px;
+    text-align: left;
+}
+.info{
+    margin-left: 50px;
+    color: #668877;
+}
+@media only screen and (max-width: 1400px) {
     #main{
         height: inherit;
+    }
+    #flexcontain{
+        flex-direction: column;
+    }
+    .flexcontain{
+        flex-direction: column;
     }
   }
   @media only screen and (max-width: 700px) {
     #main{
         width: 100vw;
-        position: fixed;
+        position: absolute;
         left: 0;
     }
+
+    nav{
+        flex-direction: column !important;
+    }
+  }
+  .head{
+      color: #668877;
+      font-family: 'Dancing Script';
   }
